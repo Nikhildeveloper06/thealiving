@@ -1,0 +1,25 @@
+# THEA — thealiving.in
+User-agent: *
+Allow: /
+Disallow: /cart
+Disallow: /checkout
+Disallow: /account
+Disallow: /search?
+Disallow: /*?*sort=
+Disallow: /*?*color=
+
+# AI answer engines (GEO): allowed to read and cite public pages
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://thealiving.in/sitemap.xml

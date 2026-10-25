@@ -1,0 +1,13 @@
+{
+  "name": "THEA - The House of Comfort Living",
+  "short_name": "THEA",
+  "description": "King size and double bedsheets, comforters and floor mats. Made in India.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1d2940",
+  "lang": "en-IN",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
